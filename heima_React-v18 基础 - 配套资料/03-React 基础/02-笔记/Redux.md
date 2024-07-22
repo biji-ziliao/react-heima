@@ -160,6 +160,7 @@ export default counterReducer
 
 ```javascript
 //store/modules/index.js
+//这个函数能够自动设置Redux DevTools扩展和开发时的中间件
 import { configureStore } from '@reduxjs/toolkit'
 // 1.导入子模块reducer
 import counterReducer from './modules/counterStore'
